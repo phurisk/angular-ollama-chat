@@ -4,8 +4,6 @@ This project is a simple **Angular web chatbot** that connects to a locally runn
 It streams responses directly from the model without any external API cost or rate limit.
 
 
-![Uploading mix-chat-ezgif.com-video-to-gif-converter.gif…](gif)
-
 
 ---
 
