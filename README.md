@@ -1,59 +1,46 @@
-# AngularOllamaChat
+# Angular Chatbot with Ollama (DeepSeek Coder V2)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.15.
+This project is a simple **Angular web chatbot** that connects to a locally running [Ollama](https://ollama.ai/) model (e.g., `deepseek-coder-v2`).  
+It streams responses directly from the model without any external API cost or rate limit.
 
-## Development server
+---
 
-To start a local development server, run:
+## 1. Install Ollama
 
+### On Linux / macOS:
 ```bash
-ng serve
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### On Windows:
 
-## Code scaffolding
+Download and install from https://ollama.com/download
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 2. Pull a Model (e.g. deepseek-coder-v2)
 
 ```bash
-ng generate --help
+ollama pull deepseek-coder-v2
+```
+Verify it's working:
+```bash
+ollama run deepseek-coder-v2
 ```
 
-## Building
+3. Set Up the Angular Project
+```bash
+npm install -g @angular/cli
+```
 
-To build the project run:
+Clone or create the project:
 
 ```bash
-ng build
+git clone ..... 
+cd angular-ollama-chat
+npm install
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+run
 ```bash
-ng test
+ng serve --proxy-config proxy.conf.json
 ```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
