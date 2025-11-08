@@ -1,4 +1,4 @@
-<img width="700" height="1080" alt="chatbot" src="https://github.com/user-attachments/assets/bf866c5a-f21f-4cce-bcfa-09c937e09254" />
+<img width="300" height="300" alt="chatbot" src="https://github.com/user-attachments/assets/bf866c5a-f21f-4cce-bcfa-09c937e09254" />
 
 
 ![mix-chat-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7e71c393-f414-4ffe-a722-5992859dd4cb) Angular Chatbot with Ollama (DeepSeek Coder V2)
