@@ -1,3 +1,6 @@
+<img width="1080" height="1080" alt="chatbot" src="https://github.com/user-attachments/assets/bf866c5a-f21f-4cce-bcfa-09c937e09254" />
+
+
 ![mix-chat-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7e71c393-f414-4ffe-a722-5992859dd4cb) Angular Chatbot with Ollama (DeepSeek Coder V2)
 
 This project is a simple **Angular web chatbot** that connects to a locally running [Ollama](https://ollama.ai/) model (e.g., `deepseek-coder-v2`).  
