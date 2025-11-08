@@ -8,7 +8,7 @@
   <img
     src="https://github.com/user-attachments/assets/7e71c393-f414-4ffe-a722-5992859dd4cb"
     alt="Angular Chatbot with Ollama (DeepSeek Coder V2)"
-    width="320"
+    width="920"
   />
 </p>
 
