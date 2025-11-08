@@ -4,8 +4,18 @@
 </p>
 
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/7e71c393-f414-4ffe-a722-5992859dd4cb"
+    alt="Angular Chatbot with Ollama (DeepSeek Coder V2)"
+    width="320"
+  />
+</p>
 
-![mix-chat-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7e71c393-f414-4ffe-a722-5992859dd4cb) Angular Chatbot with Ollama (DeepSeek Coder V2)
+<p align="center">
+  <b>Angular Chatbot with Ollama (DeepSeek Coder V2)</b>
+</p>
+
 
 This project is a simple **Angular web chatbot** that connects to a locally running [Ollama](https://ollama.ai/) model (e.g., `deepseek-coder-v2`).  
 It streams responses directly from the model without any external API cost or rate limit.
